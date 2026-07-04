@@ -1,0 +1,8 @@
+**.swp
+.env
+backup**
+*WORKS*
+logs
+lib
+data
+
