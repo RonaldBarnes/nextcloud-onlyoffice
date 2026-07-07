@@ -23,6 +23,26 @@ docker run                                                                  \
   --volume ./lib:/var/lib/onlyoffice                                        \
   onlyoffice/documentserver
 
+## Possible ENV variables (incomplete list - see URL):
+## https://helpcenter.onlyoffice.com/docs/installation/docs-community-install-docker.aspx#storingdataoutsidecontainers_block
+## JWT_SECRET=
+## JWT_ENABLED=
+## JWT_HEADER=
+## JWT_IN_BODY=
+
+## GENERATE_FONTS=
+## METRICS_ENABLED=
+## METRICS_HOST=
+
+## LETS_ENCRYPT_DOMAIN=
+## LETS_ENCRYPT_MAIL=
+
+## ONLYOFFICE_HTTPS_HSTS_ENABLED=
+## ONLYOFFICE_HTTPS_HSTS_MAXAGE=
+## SSL_CERTIFICATE_PATH=
+## SSL_KEY_PATH=
+## SSL_DHPARAM_PATH=
+## SSL_VERIFY_CLIENT=
 
 
 echo "To enable document previews, edit config.php and add the last two lines:"
