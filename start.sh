@@ -3,6 +3,11 @@
 
 ## Install / run OnlyOffice for integration with Nextcloud
 
+## Dependencies required:
+## apt update
+## apt install docker.io
+
+
 docker run                                                                  \
   --tty                                                                     \
   --detach                                                                  \
